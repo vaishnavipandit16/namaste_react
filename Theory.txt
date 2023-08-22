@@ -1,0 +1,30 @@
+1. What is Emmet?
+ANS. Emmet is a free add-on for your text editor that allows you to type shortcuts that are then expanded into full pieces of code. 
+
+2. What is CDN? Why do we use it?
+ANS. A content delivery network (CDN) is a geographically distributed group of servers that caches content close to end users. A CDN allows for the quick transfer of assets needed for loading Internet content, including HTML pages, JavaScript files, stylesheets, images, and videos.
+
+3. Why is React known as React?
+ANS. React is one of many libraries and it's completely frontend and specializes in things that the user interacts with when they're using a website. This could be buttons, search bars and menus.
+    React is called "React" because of its core feature, which is its ability to "react" or respond dynamically to changes in data. 
+    “And it's called React because it reacts.
+
+4. Why is cross-origin in the script tag?
+ANS. The crossorigin attribute sets the mode of the request to an HTTP CORS Request. Web pages often make requests to load resources on other servers.
+    Here is where CORS comes in. A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
+5. What is difference between React and ReactDOM?
+ANS. React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser.
+
+6. What is difference between react.development.js and react.production.js files via CDN?
+ANS. The development version (react.development.js) provides more detailed error messages and warnings compared to the production version. This helps developers identify and diagnose issues during the development process.
+    The development version includes additional checks and warnings to provide useful information when something goes wrong.
+    However, these additional checks and messages are not included in the production version for performance reasons.
+
+    The production version (react.production.js) is optimized for performance and is typically used in production environments.
+    It includes various optimizations, such as dead code elimination, to make the React library run more efficiently.
+    These optimizations help reduce the overall bundle size, improve runtime performance, and enhance the user experience.
+
+7. What are async and defer?
+ANS. Async allows your script to run as soon as it's loaded, without blocking other elements on the page.
+    Defer means your script will only execute after the page has finished loading.
